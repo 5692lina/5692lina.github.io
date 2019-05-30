@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+<title>Stats</title>
+<style>
+
+body {
+  font-family: Helvetica;
+  background-color: #000000;
+}
+
+
+header {
+  background-color: #696969;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: 	#800000;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #000000;
+  color:#ffffff;
+  padding: 10px;
+}
+
+
+footer {
+  background-color: #696969;
+  padding: 10px;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Stats</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+            <li><a href="index.html">Home</a></li>
+             <li><a href="Kunimitsu.html">Kunimitsu</a></li>
+             <li><a href="Law.html">Law</a></li> 
+             <li><a href="Stats.html">Stats</a></li>
+             <li><a href="Zafina.html">Zafina</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Stats</h1>
+
+    <table style="width:100%">
+        <tr>
+          <th>Karakter:</th>
+          <td>Zafina</td>
+          <td>Law</td>
+          <td>Kunimitsu</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Aantal spelers:</th>
+        </tr>
+        <tr>
+          <td>136 (>1%)</td>
+          <td>333 (2.5%)</td>
+          <td>251 (1.9%)</td>
+        </tr>
+      </table>
+      
+      <h1>Quotes</h1>
+      <ul>
+          <li>Kunimitsu: "Prepare!"</li>
+          <li>Zafina: "I accept my fate, whatever it may be."</li>
+          <li>Marshall Law: "I'm counting on you!"</li>
+        </ul>
+  </article>
+</section>
+
+<footer>
+  <p><img src="media/logo.png"></p>
+</footer>
+
+</body>
+</html>
